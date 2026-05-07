@@ -68,7 +68,7 @@ img = compose(
 
 ## 示例脚本
 
-将 `d779888b8a8f9962ca01307547cd36cf.mp4` 放到 `example/data/` 后运行：
+将 `testvideo.mp4` 放到 `example/data/` 后运行：
 
 ```bash
 PYTHONPATH=src python example/scripts/extract_in_video/demo_compose_params.py

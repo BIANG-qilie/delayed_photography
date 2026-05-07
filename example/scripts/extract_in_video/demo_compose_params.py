@@ -1,7 +1,7 @@
 """Demonstrate delayed_photography.compose() parameters on a local MP4.
 
 Input (expected, not tracked by git):
-  example/data/d779888b8a8f9962ca01307547cd36cf.mp4
+  example/data/testvideo.mp4
 
 Outputs:
   example/output/{video_stem}__{mode}__{sampling}{param}.png
@@ -45,7 +45,7 @@ def repo_root() -> Path:
 
 def main() -> int:
     root = repo_root()
-    video_path = root / "example" / "data" / "d779888b8a8f9962ca01307547cd36cf.mp4"
+    video_path = root / "example" / "data" / "testvideo.mp4"
     out_dir = root / "example" / "output"
     out_dir.mkdir(parents=True, exist_ok=True)
 
