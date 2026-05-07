@@ -4,11 +4,19 @@
 
 ## 安装
 
+从 GitHub 安装（默认跟踪仓库 `main` 分支）：
+
 ```bash
-pip install delayed-photography
+pip install "git+https://github.com/BIANG-qilie/delayed_photography.git"
 ```
 
-开发环境（可编辑安装 + 工具链）：
+带开发依赖（pytest、mypy、ruff 等）：
+
+```bash
+pip install "delayed-photography[dev] @ git+https://github.com/BIANG-qilie/delayed_photography.git"
+```
+
+已克隆到本地时，可编辑安装：
 
 ```bash
 pip install -e ".[dev]"

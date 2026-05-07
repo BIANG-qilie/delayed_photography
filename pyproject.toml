@@ -38,7 +38,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/example/delayed-photography"
+Homepage = "https://github.com/BIANG-qilie/delayed_photography"
+Repository = "https://github.com/BIANG-qilie/delayed_photography"
 
 [tool.hatch.build.targets.wheel]
 only-include = ["delayed_photography"]
